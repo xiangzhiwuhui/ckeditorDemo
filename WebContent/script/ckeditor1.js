@@ -8,7 +8,7 @@ $(function(){
 	    {//width:1000, 
 		 //height:500,
 		 //extraPlugins: 'codesnippet,lineheight',
-		 codeSnippet_theme: 'monokai_sublime'}); 
+		 codeSnippet_theme: 'arta.css'}); 
 	 
 	 //config.language = 'zh-cn';//定义编辑器界面显示的语言
 	 editor.setUiColor('#0AD4EB');//设置界面颜色

@@ -80,6 +80,13 @@
 			<allowedExtensions>swf,flv</allowedExtensions>
 			<deniedExtensions></deniedExtensions>
 		</type>
+		<type name="Video">
+			<url>%BASE_URL%video/</url>
+			<directory>%BASE_DIR%video</directory>
+			<maxSize>0</maxSize>
+			<allowedExtensions>mp4,avi,swf,flv</allowedExtensions>
+			<deniedExtensions></deniedExtensions>
+		</type>
 	</types>
 	<!--
 	The session variable name that CKFinder must use to retrieve

@@ -15,8 +15,9 @@
 
 </head>
 <body>
-	 <form>
+	 <form id="editorForm" name="editorForm" method="post" action="show.jsp">
 	    <textarea name="editor1" id="editor1" rows="10" cols="80"></textarea>
+	    <input type="submit" name="show" id="show" value="展示">
 	</form>
 </body>
 </html>
