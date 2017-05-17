@@ -20,11 +20,11 @@
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css">
 
 </head>
-<body style="">
-<!-- 第二步：初始化 -->
-<script>hljs.initHighlightingOnLoad();</script>
-
-<%request.setCharacterEncoding("UTF-8"); %>
-<div style="width: 80%;margin:0 auto;"><%=request.getParameter("editor1") %></div>
+<body>
+	<!-- 第二步：初始化 -->
+	<script>hljs.initHighlightingOnLoad();</script>
+	
+	<%request.setCharacterEncoding("UTF-8"); %>
+	<div style="width:1100px;margin:0 auto;"><%=request.getParameter("editor1") %></div>
 </body>
 </html>

@@ -16,7 +16,7 @@ CKEDITOR.editorConfig = function( config ) {
 	config.font_names='正文/正文;宋体/宋体;黑体/黑体;仿宋/仿宋_GB2312;楷体/楷体_GB2312;隶书/隶书;幼圆/幼圆;微软雅黑/微软雅黑;华文行楷/华文行楷 ;'+config.font_names; 
 	
 	//设置编辑器宽度和高度
-	config.width = 1000;        //1000 pixels.
+	config.width = 1100;        //1000 pixels.
 	config.height = 500;        // 500 pixels.
 	
 	//添加插件
