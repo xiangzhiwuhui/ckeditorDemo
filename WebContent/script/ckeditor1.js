@@ -13,7 +13,7 @@ $(function(){
 	 //config.language = 'zh-cn';//定义编辑器界面显示的语言
 	 editor.setUiColor('#0AD4EB');//设置界面颜色
 	 //为编辑器中的内容设定初始值
-	 //editor.setData('智德电子有限公司');
+//	 editor.setData('智德电子有限公司');
 	 
 	 //获取编辑器中的值
 	 //editor.getData();
