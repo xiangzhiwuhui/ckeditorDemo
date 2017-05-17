@@ -1,16 +1,16 @@
-
 <!--
 把下面内容放到ckeditor编辑器中测试效果（源码模式下）
 -->
-
 
 <p><span style="font-size:26px"><strong>习近平欢迎洪森正式访华并出席&ldquo;一带一路&rdquo;国际合作高峰论坛</strong></span></p>
 
 <p><span style="color:#8e44ad">习近平指出，中柬关系发展势头良好。中方高度重视发展同柬埔寨关系，愿同柬方一道，坚定不移推进中柬友好事业，深化全面战略合作，更好造福两国人民，为地区和平和繁荣作出更大贡献。</span></p>
 
-<p>　　<span style="background-color:#dddddd">习近平强调，中柬明年迎来建交60周年。双方要以纪念建交60周年为契机</span>，推动中柬关系行稳致远、更好发展。我们要发挥高层接触对双边关系的引领作用，加强治国理政交流。要深化务实合作，落实好推进&ldquo;一带一路&rdquo;建设合作规划纲要，<span style="font-size:26px"><span style="font-family:华文行楷"><span style="color:#e74c3c">抓好产能和投资合作重点项目</span>。</span></span>要提升经贸合作规模和水平，实施好有关合作项目建设。要加强执法安全、反恐、打击网络犯罪以及境外追逃等领域合作，扩大旅游、文化、教育、青年等社会人文交流。中方支持柬方在国际和地区事务中发挥更大作用，支持柬方当好澜湄合作主席国。</p>
+<p>　　<span style="background-color:#dddddd">习近平强调，中柬明年迎来建交60周年。双方要以纪念建交60周年为契机</span>，推动中柬关系行稳致远、更好发展。我们要发挥高层接触对双边关系的引领作用，<span style="font-size:22px"><strong>加强治国理政交流</strong>。<em>要深化务实合作</em>，<u>落实好推进</u></span>&ldquo;一带一路&rdquo;建设合作规划纲要，<span style="font-size:26px"><span style="font-family:华文行楷"><span style="color:#e74c3c">抓好产能和投资合作重点项目</span>。</span></span>要提升经贸合作规模和水平，实施好有关合作项目建设。要加强执法安全、反恐、打击网络犯罪以及境外追逃等领域合作，扩大旅游、文化、教育、青年等社会人文交流。中方支持柬方在国际和地区事务中发挥更大作用，支持柬方当好澜湄合作主席国。</p>
 
 <p><span style="line-height:4"><span style="font-size:8px"><span style="font-family:正文"><span style="background-color:#2ecc71">习近平强调，中柬明年迎来建交60周年。双方要以纪念建交60周年为契机，推动中柬关系行稳致远、更好发展。</span>我们要发挥高层接触对双边关系的引领作用，加强治国理政交流。要深化务实合作，<span style="background-color:#2ecc71">落实好推进&ldquo;一带一路&rdquo;建设合作规划纲要，抓好产能和投资合作重点项目。要提升经</span>贸合作规模和水</span><span style="font-family:黑体">平，实施好有关合作项目建设。要加强执</span><span style="font-family:正文">法安全、反恐、打击网络犯罪以及境外追逃等领</span><span style="font-family:幼圆">域合作，扩大旅游、文化、教育、青年等社会人文交流。中方支持柬方</span><span style="font-family:正文">在国际和地区事务中发挥更大作用，支持柬方当好澜湄合作主席国。</span></span></span></p>
+
+<p><img alt="25" src="ckeditor/plugins/smiley/paopao/25.png" style="height:64px; width:64px" title="25" /><img alt="41" src="ckeditor/plugins/smiley/paopao/41.png" style="height:64px; width:64px" title="41" /><img alt="36" src="ckeditor/plugins/smiley/paopao/36.png" style="height:64px; width:64px" title="36" /><img alt="39" src="ckeditor/plugins/smiley/paopao/39.png" style="height:64px; width:64px" title="39" /></p>
 
 <pre>
 <code class="language-bash">#!/bin/bash
@@ -24,4 +24,3 @@ if [ $RETVAL -eq 0 ]; then
 else
   echo "No such user."
 fi </code></pre>
-
