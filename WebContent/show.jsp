@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=UTF-8" 
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -24,7 +24,28 @@
 	<!-- 第二步：初始化 -->
 	<script>hljs.initHighlightingOnLoad();</script>
 	
-	<%request.setCharacterEncoding("UTF-8"); %>
+	<%
+	request.setCharacterEncoding("UTF-8"); 
+	%>
 	<div style="width:1100px;margin:0 auto;"><%=request.getParameter("editor1") %></div>
+	
+	
+	
+	<!-- 单篇文章使用文章中插入的分页符分页显示：代码开始 -->
+	<div style="width:1100px; margin:0 auto;font-size:40px; color:red; text-align: center;">@下面是对上面文章分页显示(前提：上面的文章中有分页符)@</div>
+	<%
+	//文章中插入的分页符，使用该分页符作为字符串分割符
+	String pageBreak = "<div style=\"page-break-after:always\"><span style=\"display:none\">&nbsp;</span></div>";
+	String content = request.getParameter("editor1");//获取文章内容
+	String[] newContent = content.split(pageBreak);//按照文章中插入的分页符对文章进行分割
+	%>
+	
+	<%for(int i = 0; i < newContent.length; i++){ %>
+	<div style="width:1100px;margin:0 auto;background:#ccc">第<%=i+1 %>页内容为：<%=newContent[i]%></div>
+	<%} %>
+	<!-- 单篇文章使用文章中插入的分页符分页显示：代码结束 -->
 </body>
 </html>
+
+
+
